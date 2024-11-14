@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <img class="img__id" src="./image/Combined Shape.svg" alt="" />
+
+    <section class="block">
+      <div class="container">
+        <div class="form__div">
+          <h1>Vakansiya ma'lumotlarini kiriting</h1>
+
+          <form id="form">
+            <h3>Logotip URL</h3>
+            <input
+              id="logo1"
+              class="text1"
+              type="url"
+              placeholder="Logotip URL manzilini kiritng"
+            />
+
+            <h3>Kompaniya nomi</h3>
+            <input
+              id="Mange"
+              class="text2"
+              type="text"
+              placeholder="Mange"
+            />
+
+            <div class="check">
+              <label class="check_text">
+                <input class="checkbox is-new" type="checkbox" /> Yangi
+              </label>
+
+              <label class="check_text">
+                <input class="checkbox is-featured" type="checkbox" /> Featured
+              </label>
+            </div>
+
+            <h3>Lavozim</h3>
+            <div id="mini_input3">
+              <input
+                class="text3"
+                type="text"
+                placeholder="Fullstack developer"
+              />
+            </div>
+
+            <div id="parts">
+              <div id="parts-select">
+                <div class="lable">
+                  <label for="vaqtlar">Vaqt</label>
+                  <select id="vaqtlar">
+                    <option value="">Tanlang</option>
+                    <option value="1day">1day ago</option>
+                    <option value="2days">2days ago</option>
+                    <option value="3days">3days ago</option>
+                    <option value="4days">4days ago</option>
+                    <option value="5days">5days ago</option>
+                    <option value="6days">6days ago</option>
+                    <option value="7days">7days ago</option>
+                  </select>
+                </div>
+
+                <div class="lable">
+                  <label for="ish">Ish turi</label>
+                  <select id="ish">
+                    <option value="">Tanlang</option>
+                    <option value="full_time">Full time</option>
+                    <option value="part_time">Part time</option>
+                    <option value="contract">Contract</option>
+                  </select>
+                </div>
+
+                <div class="lable">
+                  <label for="davlat">Joylashuv</label>
+                  <select id="davlat">
+                    <option value="">Tanlang</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="uzbekistan">O'zbekiston</option>
+                    <option value="russia">Russia</option>
+                  </select>
+                </div>
+              </div>
+
+              <h3>Ko'nikmalar</h3>
+              <div class="lable1">
+                <label>
+                  <input type="checkbox" class="skills" value="fullstack" /> Fullstack
+                </label>
+                <label>
+                  <input type="checkbox" class="skills" value="python" /> Python
+                </label>
+              </div>
+              <div class="lable2">
+                <label>
+                  <input type="checkbox" class="skills" value="midweight" /> Midweight
+                </label>
+                <label>
+                  <input type="checkbox" class="skills" value="react" /> React
+                </label>
+              </div>
+
+              <button type="submit">SAQLASH</button>
+            </div>
+          </form>
+        </div>
+
+        <div id="card" class="card__container"></div>
+
+        <button id="clearAll">CLEAR ALL</button>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #effafa;
+  font-family:'Courier New', Courier, monospace;
+
+}
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0px auto;
+  justify-content: center;
+}
+.img__id {
+  width: 100%;
+}
+.form__div {
+  position: relative;
+  border: 1px solid rgb(236, 236, 236);
+  padding: 20px;
+  width: 580px;
+  border-radius: 8px;
+  justify-content: center;
+  margin-left: 290px;
+  margin-bottom: 100px;
+  background-color: #fff;
+}
+.form__div h1 {
+  font-family: 'League Spartan';
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.form__div h3 {
+  font-family: 'League Spartan';
+
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2c2929;
+}
+.text1 {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+
+}
+.text2 {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+
+}
+.text3 {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+
+}
+
+.check {
+  margin-bottom: 20px;
+}
+.checkbox {
+  justify-content: space-between;
+  gap: 20px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 30px;
+  color: #000;
+  display: inline;
+}
+
+.check_text {
+  display: inline-flex;
+  align-items: center;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+#parts-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.lable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  
+  font-weight: bold;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  width: 150px;
+  text-align: center;
+}
+.skils {
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+
+}
+
+.lable1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.lable2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card {
+ 
+  border: 1px solid rgba(255, 255, 255, 1);
+  width: 100%;
+  display: flex;
+ 
+  
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 50px 42px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+.title_div {
+    margin-left: 24px;
+}
+
+.img_div img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+.manage {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.manage h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16.56px;
+  text-align: left;
+  color: rgba(92, 165, 165, 1);
+}
+.manage p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(92, 165, 165, 1);
+  padding: 7px 8px;
+  border-radius: 12px;
+}
+.manage .featured {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(43, 57, 57, 1);
+  padding: 7px 8px;
+  border-radius: 12px;
+}
+.user h2 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(43, 57, 57, 1);
+  margin-bottom: 7px;
+}
+.port_time {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.port_time p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(124, 143, 143, 1);
+}
+.subtitle_div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 150px;
+}
+.subtitle_div h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgba(92, 165, 165, 1);
+  background-color: #eff6f6;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+.delete_icon{
+position: absolute;
+top: 10px;
+left: 1070px;
+cursor: pointer;
+}
+#clearAll{
+  width: 100%;
+  margin-bottom: 20px;
+    
+}
+
