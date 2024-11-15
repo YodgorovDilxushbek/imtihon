@@ -5,8 +5,7 @@
 }
 body {
   background-color: #effafa;
-  font-family:'Courier New', Courier, monospace;
-
+  font-family: "Courier New", Courier, monospace;
 }
 .container {
   max-width: 1110px;
@@ -29,13 +28,13 @@ body {
   background-color: #fff;
 }
 .form__div h1 {
-  font-family: 'League Spartan';
+  font-family: "League Spartan";
   text-align: center;
   font-size: 35px;
   margin-bottom: 20px;
 }
 .form__div h3 {
-  font-family: 'League Spartan';
+  font-family: "League Spartan";
 
   text-align: left;
   font-size: 20px;
@@ -49,7 +48,6 @@ body {
   margin-bottom: 20px;
   border: 1px solid #dbdbdb;
   border-radius: 6px;
-
 }
 .text2 {
   width: 80%;
@@ -58,7 +56,6 @@ body {
   margin-bottom: 20px;
   border: 1px solid #dbdbdb;
   border-radius: 6px;
-
 }
 .text3 {
   width: 80%;
@@ -67,7 +64,6 @@ body {
   margin-bottom: 20px;
   border: 1px solid #dbdbdb;
   border-radius: 6px;
-
 }
 
 .check {
@@ -111,7 +107,6 @@ body {
 }
 
 label {
-  
   font-weight: bold;
   margin-bottom: 5px;
   cursor: pointer;
@@ -128,7 +123,6 @@ select {
   justify-content: space-between;
   align-items: center;
   margin-left: 20px;
-
 }
 
 .lable1 {
@@ -153,12 +147,10 @@ button {
   cursor: pointer;
 }
 .card {
- 
+  position: relative;
   border: 1px solid rgba(255, 255, 255, 1);
   width: 100%;
   display: flex;
- 
-  
   align-items: center;
   background-color: #fff;
   border-radius: 5px;
@@ -167,7 +159,7 @@ button {
   box-shadow: 10px 10px 5px #aaaaaa;
 }
 .title_div {
-    margin-left: 24px;
+  margin-left: 24px;
 }
 
 .img_div img {
@@ -245,15 +237,13 @@ button {
   padding: 5px 10px;
   border-radius: 4px;
 }
-.delete_icon{
-position: absolute;
-top: 10px;
-left: 1070px;
-cursor: pointer;
+.delete_icon {
+  position: absolute;
+  top: 10px;
+  left: 1070px;
+  cursor: pointer;
 }
-#clearAll{
+#clearAll {
   width: 100%;
   margin-bottom: 20px;
-    
 }
-
